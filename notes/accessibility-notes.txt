@@ -1,0 +1,109 @@
+What Is Web Accessibility
+	>> Websites, tools and technologies should be designed and developed so that people with disabilities can use them.
+		>> Need to percieve, understand, navigate, and interact with the Web
+		>> Need to be able to contribute to the web
+	>> Disabilties include:
+		>> Auditory
+		>> Cognitive
+		>> Neurological
+		>> Physical
+		>> Speech
+		>> Visual
+	>> Can also benefit people without disabilities
+		>> People using mobile phones, smart watches, and other devices with small screens, different input  modes, ect.
+		>> Older people with changing abilities
+		>> Temporary disabilities (broken arm, lost glasses)
+		>> Situational limitations (bright lit area, can't listen to audio)
+		>> Slow internet connection or limited/expensive bandwidth
+	>> Accessibility features include:
+		>> Video Captions
+		>> Colors with Good Contrast
+		>> Voice Recognition
+		>> Text to Speech
+		>> Clear Layout and Design
+			>> Clear Headings
+			>> Navigation Bars
+			>> Consistent Styling
+		>> Notifications and Feedback
+		>> Large Links, Buttons, and Controls
+		>> Customizable Text
+			>> Size
+			>> Spacing
+			>> Font
+			>> Colors
+		>> Understandable Content
+		>> Keyboard Compatibility
+	>> Web accessibility is required by law in many situations
+		>> Access to information and communication technologies, including the web, is considered a basic human right by the United Nations on the Rights of Persons with Disabilities
+Web Accessibility Principles
+	>> Several components must work together
+		>> Web Content - Refers to any part of the website (test, images, forms, multimedia, markup code, scripts, applications, etc.)
+		>> User Agents - Software used to access web content (graphical browsers, voice browsers, mobile phone browsers, multimedia players, plugins, assistive technologies)
+		>> Authoring Tools - Software or services used to produce web content (code editors, document conversion tools, content management systems, blogs, database scripts, and more)
+	>> Perceivable Information and User Interface
+		>> Text alternatives for non-text content
+			>> Short equivalents for images, icons, buttons, and graphics
+			>> Descriptions of data on charts, diagrams, and illustrations
+			>> Breif description of audio and video files
+			>> Labels for form controls, input, and other user interface components
+		>> Captions and alternatives to multimedia
+			>> Text transcripts and captions for audio content
+			>> Audio descriptions, narrations to describe important visual details in video
+			>> Sign language interpretations of audio content
+		>> Content can be customized
+			>> Headings, lists, tables, input fields, and content structures must be marked-up properly
+			>> Sequences of information are independant of any presentation
+			>> Browsers and assistive technologies provide settings to customize presentation
+		>> Content is easy to see and hear
+			>> Color is not used as the only way of conveying information or identifying content
+			>> Foreground and background colors provide sufficient contrast
+			>> When users resize up to 400% or change text spacing, no information is lost
+			>> Text reflows in smaller windows and when user makes text larger
+			>> Images of text are resizable, replaced with actual text, or avoided wherever possible
+			>> Users can pause, stop, and adjust volume of audio that is played on a website
+			>> Background audio is low or can be turned off
+	>> Operable User Interface and Navigation
+		>> Functionality available from keyboard
+			>> All functionality available by mouse also available by keyboard
+			>> Keyboard focus does not get trapped in any part of content
+			>> Web browsers, authoring tools, and other tools provide keyboard support
+		>> Users have enough time to read and use content
+			>> Stop, extend, and adjust time limits except where necessary
+			>> Pause, stop, or hide moving, blinking, or scrolling content
+			>> Postpone or supress interuptions, except where necessary
+			>> Re-authenticate when a session expires without loosing data
+		>> Content does not cause seizures or physical reactions'
+			>> Do not include content that flashes at particular rates or patterns
+			>> Warn users before flashing content is presented, and provide alternatives
+			>> Provide mechanics to switch off animations unless essential
+		>> Users can easily navigate, find content, and determine where they are
+			>> Pages have clear titles and are organized using descriptive headings
+			>> There is more than one way to find relevant pages within a set of web pages
+			>> Users are informed about their current location within a set of related pages
+			>> There are ways to bypass blocks of content that are repeated on multiple pages
+			>> The purpose of links are evident, even when the link is viewed on its own
+		>> Users can use different input beyond the keyboard
+			>> Gestures that require dexterity or fine movement have alternatives that do not require high dexterity
+			>> Components are designed to avoid accidental activation (undo function for example)
+			>> Lables presented match corresponding object names in the code, to support activation by voice
+			>> Functionality activated by movement can also be activated by user interface controls
+			>> Buttons, links, and other active components are large enough to be activated by touch
+	>> Understandable Information and User Interface
+		>> Text is readable and understandable
+			>> Identifying the primary language of a website
+			>> Identifying the language of any part of the website
+			>> Provide definitions for unusual words, phrases, idioms, and abbreviations
+			>> Use the clearest and simplest language possible, or provide simplified versions
+		>> Content appears and operates in predictable ways
+			>> Navigation that appears on multiple pages appears in the same place
+			>> User interface options on multiple pages always have the same lables
+			>> Significant changes to the website do not happen without consent of the user
+		>> Users are helped to avoid and correct mistakes
+			>> Descriptive instructions, error messages, and suggestions for corrections
+			>> Context sensitive help for more complex functionality and interaction
+			>> Oportunity to review, correct, or reverse submission if necessary
+	>> Robust Content and Reliable Interpretation
+		>> Content is compatible with current and future user tools
+			>> Ensure markup is reliably interpreted
+			>> Provide name, role, and value for non-standard user interface components
+	>> https://www.w3.org/WAI/fundamentals/accessibility-principles/
